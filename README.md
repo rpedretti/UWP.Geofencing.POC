@@ -1,9 +1,7 @@
 # UWP.Geofencing.POC
 Repo to reproduce a bug found at the Geofencing API on Windwows 10 Mobile.
 
-
 This POC consists on a single page listening to both geofencing and geolocation StatusChanged to update the UI. To reproduce the errors just follow these steps:
-
 
 1. Run the app and allow location
 2. Verify that both geolocation and geofencing are enabled
