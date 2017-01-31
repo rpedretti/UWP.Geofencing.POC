@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="Geofencing.POC.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Geofencing.POC"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+                VerticalAlignment="Center">
+        <TextBlock x:Name="geolocationStatusTextBlock"
+                   FontSize="32"
+                   Margin="0,0,0,10"
+                   TextWrapping="WrapWholeWords"
+                   VerticalAlignment="Center"/>
+        <TextBlock x:Name="geofencingStatusTextBlock"
+                   Margin="0,10,0,0"
+                   TextWrapping="WrapWholeWords"
+                   FontSize="32"
+                   VerticalAlignment="Center"/>
+    </StackPanel>
+</Page>
